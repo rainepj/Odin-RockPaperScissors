@@ -121,14 +121,3 @@ paper.addEventListener("click",paperChoice);
 scissor.addEventListener("click",scissorChoice);
 reveal.addEventListener("click",hideReveal);
 resetButton.addEventListener("click", reset);
-
-
-/*
-On rock/paper/scissors button press
-    Computer choice executes -> comparison for
-    win/loss computed -> text containting computer-
-    choice + win/loss should be added as new <li>
-
-
-
-*/
