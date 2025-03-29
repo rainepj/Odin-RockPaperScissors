@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Odin's Rock Paper Scissors</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    <script src="javascript.js"></script>
+<div class="body">
+    <div class = "choiceButtons">
+        <button class="rock button">Rock</button>
+        <button class="paper button">Paper</button>
+        <button class="scissor button">Scissors</button>
+    </div>
+
+    <div class="resultUtilityBundle">
+        <div class="results">
+            <ol class="hide">
+            </ol>
+        </div>
+        <div class="utilityButtons">
+            <button class="reveal">Hide / Unhide</button>
+            <button class = "reset">Reset</button>
+        </div>
+    </div>
+
+    <div class="scoreBoard border">
+        <div>
+            <p>Your Score:</p>
+            <div class="humanScore number">0</div>
+        </div>
+        <div>
+            <p>Computer's Score:</p>
+            <div class="computerScore number">0</div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
